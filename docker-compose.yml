@@ -1,0 +1,13 @@
+## OC Pace Setters V1.0.1
+## Code in - OC Pace Setters V1.0.0
+## Still needs fixing
+version: '3'
+services:
+  server:
+    build: ./server
+    ports:
+      - "3000:3000"
+  client:
+    build: ./client
+    ports:
+      - "5173:5173"

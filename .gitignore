@@ -1,0 +1,69 @@
+##OC-Pace-Setters V1.0.0
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+/build
+/dist
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Others
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Firebase configuration
+.firebaserc
+firebase.json
+
+----------------
+##OC-Pace-Setters V1.0.1
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+/dist
+/build
+
+# Logs
+*.log
+
+# Other files and directories to ignore
+.DS_Store

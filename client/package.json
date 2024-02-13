@@ -1,0 +1,47 @@
+{
+  "name": "issaccharter-software",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "http://localhost:30404",
+  "homepage": "https://github.com/rhamseyswork/IssacCharter.Software#readme",
+  "scripts": {
+    "test": "test",
+    "dev": "vite --port 3010",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "vite --port 0001"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.0"
+  },
+  "description": "This is a project is private software for ISSA Charter to use. Some portions of the code will be open source to show, display, & recruit talent. This is the client interface.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhamseyswork/IssacCharter.Software.git"
+  },
+  "keywords": [
+    "Issac",
+    "Charter"
+  ],
+  "author": "Rhamseys Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhamseyswork/IssacCharter.Software/issues"
+  }
+}
